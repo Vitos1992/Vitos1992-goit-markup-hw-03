@@ -1,10 +1,30 @@
+html {
+  box-sizing: border-box;  
+}
+
+*
+*::before,
+*::after{
+  box-sizing: inherit;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
 }
 
-/* Header Web Studio */
+/* ------------------------Header Web Studio------------------------ */
 
+.contener,
+.contener-features,
+.content-title,
+.content-team,
+.foteer-title {
+  width: 1152px;
+  margin-left: 12px;
+  margin-right: 12px;
+  margin: 0 auto;
+}
 
 .studio {
   color: #2e2f42;
@@ -33,8 +53,9 @@ body {
   list-style: none;
   font-style: normal;
   text-decoration: none;
+  padding: 0;
+  margin: 0;
 }
-
 
 .hov-foc{
   color: #2e2f42;
@@ -71,10 +92,23 @@ body {
   color: #404BBF;
 }
 
-/* Main */
+/* --------------------------Main---------------------------------------- */
 
 .items {
   background-color: #2E2F42;
+  margin-bottom: 120px;
+}
+
+.item {
+  font-size: 56px;
+  color: #FFFFFF;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-align: center;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 48px;
 }
 
 .lists{
@@ -83,8 +117,24 @@ body {
   letter-spacing: 0.02em;
   line-height: 1.2;
   color: #2e2f42;
+  margin-top: 0;
+  margin-bottom: 8px;
 }
 
+.lead {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  margin-top: 0;
+  margin-bottom: 120px;
+
+}
+
+.bottom-text{
+  
+}
 .button {
   color: #FFFFFF;
   background-color: #4D5AE5;
@@ -95,6 +145,8 @@ body {
   cursor: pointer;
   font-family: "Roboto",
     sans-serif;
+  text-align: center;
+  padding: 16px 32px;
 }
 
 .button:hover,
@@ -125,17 +177,7 @@ body {
    
 }
 
-
-
-.item {
-  font-size: 56px;
-  color: #FFFFFF;
-  line-height: 1.07;
-  text-align: center;
-  letter-spacing: 0.02em;
-}
-
-/* features */
+/* -------------------------features-------------------------------- */
 
 .features {
   line-height: 1.5;
@@ -146,17 +188,6 @@ body {
   list-style: none;
 }
 
-
-
-.lead {
-  color: #434455;
-  font-size: 16px;
-  line-height: 1.5;
-  font-weight: 400;
-  letter-spacing: 0.02em;
-  
-}
-
 .title, .title-team {
   color: #2E2F42;
   font-size: 36px;
@@ -165,14 +196,13 @@ body {
   text-align: center;
   font-weight: 700;
   text-transform: capitalize;
+  margin-top: 0;
+  margin-bottom: 72px;
 }
 
 .our-team{
   background-color: #f4f4fd;
 }
-
-
-
 
 .name {
   color: #2E2F42;
@@ -181,6 +211,8 @@ body {
   font-weight: 500;
   letter-spacing: 0.02em;
   text-align: center;
+  margin-top: 0;
+  margin-bottom: 8px;
 }
 
 .names {
@@ -198,6 +230,8 @@ body {
   font-weight: 400;
   letter-spacing: 0.02em;
   text-align: center;
+  margin-top: 0;
+  margin-bottom: 32px;
 }
 
 .specialtys {
@@ -211,7 +245,13 @@ body {
   background-color: #FFFFFF;
 }
 
-/* footer */
+.imeges{
+  margin-top: 0;
+  margin-bottom: 240px;
+}
+
+
+/* -----------------------footer -----------------------------*/
 
 .text {
   color: #F4F4FD;
@@ -233,3 +273,4 @@ body {
 .list-portfolio {
   list-style: none;
 }
+
