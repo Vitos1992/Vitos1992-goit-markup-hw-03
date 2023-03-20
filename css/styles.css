@@ -10,8 +10,6 @@ html {
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
-  width: 1440px;
-  height: 2592px;
 }
 
 p,
@@ -57,13 +55,6 @@ ul {
   margin-left: 12px;
   margin-right: 12px;
   margin: 0 auto;
-}
-
-.page-header {
-  width: 1440px;
-  height: 72px;
-  left: 0px;
-  top: 0px;
 }
 
 
@@ -145,7 +136,6 @@ ul {
   font-family: "Roboto",
     sans-serif;
   text-transform: uppercase;
-  margin-right: 40px;
 
 }
 
@@ -179,27 +169,6 @@ ul {
   padding: 0;
   margin-top: 0;
   margin-bottom: 48px;
-}
-
-.lists {
-  font-size: 20px;
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  line-height: 1.2;
-  color: #2e2f42;
-  margin-top: 0;
-  margin-bottom: 8px;
-}
-
-.lead {
-  color: #434455;
-  font-size: 16px;
-  line-height: 1.5;
-  font-weight: 400;
-  letter-spacing: 0.02em;
-  margin-top: 0;
-  margin-bottom: 120px;
-
 }
 
 .button {
@@ -287,15 +256,44 @@ ul {
 
 /* -------------------------features-------------------------------- */
 
-.contener-features {
+.cont-features{
   display: flex;
-  height: 104px;
   margin-bottom: 120px;
+
+}
+
+.contener-features li{
+  margin-right: 24px;
+}
+
+.contener-features .fr-list:last-child{
+  margin-right: 0;
 }
 
 .features {
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.lists {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
+  color: #2e2f42;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.lead {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  margin-top: 0;
+  margin-bottom: 0;
+
 }
 
 .head {
@@ -325,8 +323,8 @@ ul {
   display: flex;
   align-content: center;
   flex-wrap: wrap;
-  width: 1440px;
-  height: 732px;
+  /* width: 1440px;
+  height: 732px; */
   background-color: #f4f4fd;
 }
 
@@ -426,16 +424,10 @@ ul {
   margin-bottom: 16px;
 }
 
-.foteer-title {
-  margin: 100px 1010px 100px 156px;
-}
-
 .footer {
   display: flex;
   justify-content: center;
   background-color: #2E2F42;
-  width: 1440px;
-  height: 312px;
 }
 
 .studio-f {
