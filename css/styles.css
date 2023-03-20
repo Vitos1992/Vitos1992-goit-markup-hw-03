@@ -31,6 +31,7 @@ ul {
 .contener-header {
   display: flex;
   justify-content: space-between;
+
 }
 
 .page-header {
@@ -92,7 +93,6 @@ ul {
 }
 
 .hov-foc {
-  display: block;
   color: #2e2f42;
   font-size: 16px;
   line-height: 1.5;
@@ -101,6 +101,8 @@ ul {
     sans-serif;
   letter-spacing: 0.02em;
   text-transform: none;
+  padding-top: 24px;
+  padding-bottom: 24px;
 
 }
 
@@ -112,6 +114,9 @@ ul {
 }
 
 .nav {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
   margin-right: 40px;
 }
 
@@ -136,6 +141,8 @@ ul {
   font-family: "Roboto",
     sans-serif;
   text-transform: uppercase;
+  padding-top: 24px;
+  padding-bottom: 24px;
 
 }
 
@@ -216,6 +223,11 @@ ul {
 
 }
 
+.img-box{
+  padding-bottom: 32px;
+
+}
+
 
 .box-wrap {
   display: flex;
@@ -256,17 +268,17 @@ ul {
 
 /* -------------------------features-------------------------------- */
 
-.cont-features{
+.cont-features {
   display: flex;
   margin-bottom: 120px;
 
 }
 
-.contener-features li{
+.contener-features li {
   margin-right: 24px;
 }
 
-.contener-features .fr-list:last-child{
+.contener-features .fr-list:last-child {
   margin-right: 0;
 }
 
