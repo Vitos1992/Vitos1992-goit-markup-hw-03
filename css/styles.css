@@ -178,14 +178,20 @@ ul {
 }
 
 .item {
+  display: block;
   font-size: 56px;
   color: #FFFFFF;
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
-  padding: 0;
-  margin-top: 0;
   margin-bottom: 48px;
+  
+}
+
+.bottom-text{
+  max-width: 496px;
+  margin: auto;
+
 }
 
 .button {
@@ -248,7 +254,9 @@ ul {
 }
 
 .box-foons{
+  max-width: 360px;
   padding-top: 32px;
+  border: 1px solid #ccc;
 }
 
 .box-list {
@@ -414,6 +422,8 @@ ul {
 
 .foons {
   background-color: #FFFFFF;
+  flex-basis: calc((100% - 72px) /4 );
+  max-width: 264px;
 }
 
 .foons:last-child {
