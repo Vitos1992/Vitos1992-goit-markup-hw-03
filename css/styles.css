@@ -245,24 +245,12 @@ img {
 }
 
 
-.box-img {
-  max-width: 360px;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  border: 1px solid #ccc;
-  height: auto;
-  max-width: 360px;
-
-}
-
 .box-foons {
-  max-width: 360px;
   padding-top: 32px;
   padding-bottom: 32px;
   border: 1px solid #ccc;
   border-top: none;
-  height: auto;
-  max-width: 360px;
+  
 }
 
 .box-list {
@@ -382,7 +370,6 @@ img {
   font-weight: 500;
   letter-spacing: 0.02em;
   text-align: center;
-  margin-top: 0;
   margin-bottom: 8px;
 }
 
