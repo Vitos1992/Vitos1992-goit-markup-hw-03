@@ -29,7 +29,7 @@ ul {
   padding-left: 0;
 }
 
-.img {
+img {
   display: block;
   max-width: 100%;
   height: auto;
@@ -260,6 +260,7 @@ ul {
   padding-top: 32px;
   padding-bottom: 32px;
   border: 1px solid #ccc;
+  border-top: none;
   height: auto;
   max-width: 360px;
 }
