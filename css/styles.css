@@ -36,10 +36,14 @@ img {
 }
 
 /* ------------------------Header Web Studio------------------------ */
+
+.page-header{
+  border-bottom: 1px solid #E7E9FC;
+
+}
 .contener-header {
   display: flex;
   justify-content: space-between;
-
 }
 
 .container,
@@ -131,10 +135,9 @@ img {
   font-style: normal;
   font-family: "Roboto",
     sans-serif;
-  text-transform: uppercase;
   padding-top: 24px;
   padding-bottom: 24px;
-
+  text-transform: initial;
 }
 
 .site-address {
@@ -301,6 +304,9 @@ img {
   margin-right: 0;
 }
 
+.fr-list{
+  max-width: 264px;
+}
 .features {
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -314,6 +320,10 @@ img {
   color: #2e2f42;
   margin-top: 0;
   margin-bottom: 8px;
+}
+
+.bott{
+  letter-spacing: 0.017em;
 }
 
 .lead {
@@ -409,6 +419,7 @@ img {
   font-family: "Roboto",
     sans-serif;
   color: #434455;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
