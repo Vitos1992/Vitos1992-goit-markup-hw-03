@@ -247,9 +247,17 @@ img {
 .box-foons {
   padding-top: 32px;
   padding-bottom: 32px;
-  border: 1px solid #ccc;
+  border: 1px solid #E7E9FC;
   border-top: none;
-  
+  padding-left: 8px;
+}
+
+.box-foons-img {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  border: 1px solid #E7E9FC;
+  border-top: none;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .box-list {
@@ -379,6 +387,7 @@ img {
   letter-spacing: 0.02em;
   margin-bottom: 8px;
   text-transform: none;
+  margin-left: 16px;
 }
 
 .contener-out {
@@ -404,6 +413,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-transform: none;
+  margin-left: 16px;
 }
 
 .foons {
